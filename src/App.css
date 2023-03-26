@@ -2,47 +2,87 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 15vmin;
-  margin: 5%;
-  pointer-events: none;
-}
-
-.App-body {
-  background-color: burlywood;
-  max-width: 400px;
+.App-wrapper {
+  max-width: 340px;
+  width: 40%;
+  max-height: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #4b5d46;
+  align-items: center;
+  color: #ffffff;
   margin: auto;
 }
 
 .App-header {
-  background-color: #282c34;
-  flex-direction: column;
+  background-color: #4b5d46;
+  height: 50px;
+  margin-bottom: 15px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 3vmin);
-  color: white;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
 }
 
+@media screen and (max-width: 600px) {
+  .App-header {
+    font-size: 14px;
+  }
+}
 
+.screen {
+  height: 100px;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 35px;
+  box-sizing: border-box;
+  text-align: center
+}
+
+@media screen and (max-width: 600px) {
+  .screen {
+    font-size: 20px;
+  }
+}
 
 .App-input {
-  margin: 10px 3px 0px;
+  margin: 10px 3px 5px;
   border-radius: 2px;
+  width: 40%;
+  padding: 5px 10px;
+}
+
+.buttonBox {
+  width: 100%;
+  height: calc(100% - 360px);
+  display: grid;
+  margin-top: 40px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 5px;
 }
 
 .App-button {
-  margin: 5px 2px 2px;
+  margin: 2px 2px 2px;
   font-weight: bold;
-  border-radius: 50px;
+  font-size: 24px;
+  border-radius: 15px;
+  background-color: #fdfdfd;
+  cursor: pointer;
+  border: none;
 }
 
-.App-button2 {
-  margin: 5px 2px 2px;
-  font-weight: bold;
-  border-radius: 5px;
+.App-button:hover {
+  background-color: #e7dcc9;
 }
-
 
 .Bold {
-  font-weight: bold;
+  font-weight: lighter;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
