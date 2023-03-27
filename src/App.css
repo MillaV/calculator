@@ -62,7 +62,7 @@
   width: 100%;
   height: calc(100% - 360px);
   display: grid;
-  margin-top: 40px;
+  margin-top: 20px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 5px;
@@ -71,11 +71,14 @@
 .App-button {
   margin: 2px 2px 2px;
   font-weight: bold;
-  font-size: 24px;
-  border-radius: 15px;
+  font-size: 25px;
+  color: #20281e;
   background-color: #fdfdfd;
   cursor: pointer;
   border: none;
+  border-radius: 12px;
+  text-align: center;
+
 }
 
 .App-button:hover {
