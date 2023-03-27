@@ -69,7 +69,7 @@ function App() {
         </header>
 
         <div className="screen">
-          <p>{numero1} {toiminto} {numero2} {merkki} {tulos}</p>
+          <p>{numero1} {toiminto} {numero2} {merkki} {tulos} </p>
         </div>
 
           <form>
@@ -92,7 +92,7 @@ function App() {
               <button className="App-button" onClick={kerro}> x </button>
               <button className="App-button" onClick={jaa}> / </button>
               <button className='App-button' onClick={laskutoimitus}>=</button>
-              <button className='App-button' onClick={nollaa}>nollaa</button>
+              <button className='App-button' onClick={nollaa}>C</button>
           </div>
 
 
